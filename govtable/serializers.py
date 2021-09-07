@@ -4,4 +4,4 @@ from .models import GovTable
 class GovTableSerializer(serializers.ModelSerializer):
     class Meta:
         model = GovTable
-        fields = ('Name', 'Address', 'ZipCode', 'Email')
+        fields = ('id', 'Name', 'Address', 'ZipCode', 'Email')
